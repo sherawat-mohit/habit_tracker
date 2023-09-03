@@ -18,7 +18,7 @@
 `npm install` 
 
 3. Start the application using the following command:
-`npm run start` 
+`node index.js` 
 
 4. Open the application in your web browser by visiting the following URL:
 `http://localhost:3000` 
