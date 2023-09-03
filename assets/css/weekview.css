@@ -1,0 +1,112 @@
+body {
+  background-image: url("/images/habit.jpg");
+  background-size: contain;
+  overflow-y: scroll;
+}
+
+#header-div {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#header-div h1 {
+  color: #000000;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 10%;
+}
+#header-div button {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  margin-right: 4%;
+  background-color: #ff3939;
+}
+#header-div a {
+  color: white;
+  text-decoration: none;
+}
+
+#habits-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#habits-div #user-habits {
+  width: 80%;
+  /* background-color: white; */
+  background-color: rgba(255, 255, 255, 0.708);
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#habits-div #user-habits h4 {
+  color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+#habits-div #user-habits div {
+  width: 16%;
+  padding-bottom: 2%;
+}
+#habits-div #user-habits button {
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 4%;
+}
+
+#habits-div #user-habits button a{
+  text-decoration: none;
+  color: pink;
+}
+#user-habits p{
+  font-weight: 600;
+  letter-spacing: normal;
+}
+
+
+#instructions{
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;;
+  align-self: center;
+  font-size: 18px;
+  text-align: left;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#instructions h4{
+  margin: 0;
+  padding: 0 10px;
+}
+#instructions ul li{
+
+}
+#instructions ul li span{
+  /* padding: 5px; */
+  margin: 4px 8px;
+width: fit-content;
+height: 5px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  
+
+}

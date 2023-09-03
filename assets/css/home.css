@@ -1,0 +1,150 @@
+body {
+  background-image: url("/images/habit.jpg");
+  background-size:contain;
+  overflow-y: scroll;
+}
+
+h1 {
+  color: #000000;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#search-div {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+#search-div form {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search-div form select {
+  width: 50%;
+  height: 38%;
+  font-size: 20px;
+  padding-left: 2%;
+  margin-right: 2%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#search-div form select option{
+  border: none;
+  font-size: 16px;
+}
+#search-div form input {
+  height: 33%;
+  width: 70%;
+  margin-right: 3%;
+  font-size: 16px;
+  padding-left: 5%;
+  border-radius: 50px;
+  border: none;
+}
+#search-div form button {
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  background-color: #359aff;
+  border: none;
+  color: white;
+  margin-right: 20px;
+  padding: 10px 15px;
+}
+#search-div form button:hover{
+  background-color: #0080ff;
+}
+
+#custom_habit{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#add-custom-habit{
+  width: 250px !important;
+}
+
+#search-div #weekly-view {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  margin-right: 4%;
+  background-color: #ff3939;
+}
+#search-div #weekly-view:hover{
+  background-color: red;
+}
+#search-div #weekly-view a {
+  color: white;
+  text-decoration: none;
+}
+
+#habits-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#habits-div #user-habits {
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.708);
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  padding-left: 25px;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  margin-bottom: none;
+}
+#habits-div #user-habits h4 {
+  margin-right: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+#habits-div #user-habits select {
+  width: 25%;
+  height: fit-content;
+  font-size: 16px;
+  padding-left: 0.5%;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 5px 10px;
+}
+#habits-div #user-habits button {
+  width: 20%;
+  height: fit-content;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  background-color: #ff3939;
+  border: none;
+  margin-right: 4%;
+  padding: 10px 20px;
+}
+
+#habits-div #user-habits button:hover{
+  background-color: red;
+}
+#habits-div #user-habits a {
+  color: white;
+  text-decoration: none;
+}
+
+i{
+  margin-right: 5px;
+}
