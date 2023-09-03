@@ -30,7 +30,7 @@
 4. User can also move to the *Weekly View* page to track the status of habits for the past week.
 5. User can change the status of the current date or past 7 days by clicking on the colored circle icons displayed under the dates.
 6. Following color of icons display the Status of the habit:
-`Red` - **Not Done**
-`Green` - **Done**
-`Yellow` - **Not Started**
+    * `Red` - **Not Done**
+    * `Green` - **Done**
+    * `Yellow` - **Not Started**
 7. When user changes the Status of any habit for the Current date it is also going to reflected on the Daily View page.
