@@ -10,18 +10,18 @@
     4. **View** the *Weekly status* of habit and change their status too
 
 
-## Steps for 
+## Steps for setting up habit tracker
 1. Clone this repository using the following command:
+`gh repo clone sherawat-mohit/habit_tracker`
 
+2. Install the required dependencies using the following command:
+`npm install` 
 
-Install the required dependencies using the following command:
-$ npm install 
+3. Start the application using the following command:
+`npm run start` 
 
-Start the application using the following command:
-$ npm run start 
-
-Open the application in your web browser by visiting the following URL:
-$ http://localhost:3000 
+4. Open the application in your web browser by visiting the following URL:
+`http://localhost:3000` 
 
 **Usage:**
 
