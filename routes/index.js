@@ -4,8 +4,10 @@ const startPageController = require('../controllers/startPage');
 
 const router = express.Router();
 
-router.get('/', startPageController.home);
+
 router.use('/habits', require('./habits'));
+
+router.get('/', startPageController.home);
 
 
 module.exports = router;
