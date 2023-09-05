@@ -34,3 +34,4 @@
     * `Green` - **Done**
     * `Yellow` - **Not Started**
 7. When user changes the Status of any habit for the Current date it is also going to reflected on the Daily View page.
+8. User can also connect to the local database with MongoDB Compass using `mongodb://127.0.0.1:27017/habits_db` link.
