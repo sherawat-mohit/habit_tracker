@@ -1,4 +1,4 @@
-// IFFE to change the status of habit to "Done", "Not Done", "Not Sta"
+// IFFE to change the status of habit to "Done", "Not Done", "Not Started"
 $('.habit-status-dropdown').on('change',function(){
     let id=this.id;
     let status=$(this).val();
