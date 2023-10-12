@@ -1,6 +1,6 @@
 # Habit Tracker
 
-* This project is a habit tracker used to track the habits of of the User on daily and weekly basis.
+* This project is a habit tracker used to track the habits of the User on daily and weekly basis.
 * It is created using HTML, CSS, JavaScript,Jquery, Node.js, Express.js and MongoDB
 * It is used to store **name**, **status** and **timestamps** of the habits
 * We can perform requests in this habit tracker app like
